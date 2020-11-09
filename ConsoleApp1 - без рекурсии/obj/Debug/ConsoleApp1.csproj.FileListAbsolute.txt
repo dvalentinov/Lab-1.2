@@ -1,0 +1,35 @@
+C:\MVS\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\MVS\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\MVS\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\MVS\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\MVS\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\MVS\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\MVS\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\10.10.2020 - ЛР № 1\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.exe.config
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\10.10.2020 - ЛР № 1\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.exe
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\10.10.2020 - ЛР № 1\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.pdb
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\10.10.2020 - ЛР № 1\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\10.10.2020 - ЛР № 1\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\10.10.2020 - ЛР № 1\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.exe
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\10.10.2020 - ЛР № 1\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.pdb
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\13.10.2020 - Практика (ЛР № 1)\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\13.10.2020 - Практика (ЛР № 1)\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\13.10.2020 - Практика (ЛР № 1)\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.exe
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\13.10.2020 - Практика (ЛР № 1)\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.pdb
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\13.10.2020 - Практика (ЛР № 1)\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.exe.config
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\13.10.2020 - Практика (ЛР № 1)\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.exe
+D:\Личные\24.07.1984 - Сидоров Антон Юрьевич\Тюменский ГУ - 01.09.2020 - июнь 2021\18.09.2020 - Технологии и методы программирования\13.10.2020 - Практика (ЛР № 1)\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.pdb
+C:\MVS\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\MVS\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\MVS\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.exe
+C:\MVS\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.pdb
+C:\MVS\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.exe.config
+C:\MVS\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.exe
+C:\MVS\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.pdb
+C:\Users\1234\Desktop\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.exe.config
+C:\Users\1234\Desktop\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.exe
+C:\Users\1234\Desktop\ConsoleApp1 - без рекурсии\bin\Debug\ConsoleApp1.pdb
+C:\Users\1234\Desktop\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\1234\Desktop\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\1234\Desktop\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.exe
+C:\Users\1234\Desktop\ConsoleApp1 - без рекурсии\obj\Debug\ConsoleApp1.pdb

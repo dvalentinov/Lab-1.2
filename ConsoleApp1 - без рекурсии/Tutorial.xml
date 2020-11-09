@@ -1,0 +1,251 @@
+<Tutorial>
+     <members name="Program.cs">
+          <Main>
+               <summary>
+               Комментарии для Main:
+               <list type="number">
+               <item>
+               <term>isTree = new BinaryTreeClass ()</term>
+               <description>создание экземпляра TreeClass класса BinaryTreeClass.</description>
+               </item>
+               <item>
+               <term>isTextFile = new StreamWriter ($"{PathFileString}")</term>
+               <description>создание экземпляра isTextFile класса StreamWriter (файла текстового формата) для дальнейшей записи в него дерева.</description>
+               </item>
+               <item>
+               <term>isTextFile.Close ()</term>
+               <description>закрытие экземпляра isTextFile.</description>
+               </item>
+               <item>
+               <term>finally</term>
+               <description>оператор блока гарантированного выполнения. Необязателен, но рекоммендуется применять всегда.</description>
+               </item>
+               </list>
+               </summary>
+          </Main>
+          <QuantityChoice>
+               <summary>
+               Комментарии для QuantityChoice:
+               <list type="number">
+               <item>
+               <term>case 1: AutoAddRecord ()</term>
+               <description>инициализация псевдослучайного количества узлов isQuantityNode.</description>
+               </item>
+               <item>
+               <term>case 2: UserAddRecord ()</term>
+               <description>инициализация количества узлов isQuantityNode пользователем.</description>
+               </item>
+               <item>
+               <term>throw new Exception ()</term>
+               <description>если Choice != 1 или 2, то вызывается оператор Catch (блок исключения). Оператор Break в этом случае не требуется.</description>
+               </item>
+               </list>
+               </summary>
+          </QuantityChoice>
+          <AutoAddQuantityNode>
+               <summary>
+               Комментарии для AutoAddQuantityNode:
+               <list type="number">
+               <item>
+               <term>Random rnd = new Random ()</term>
+               <description>объявление и инициализация экземпляра rnd класса Random.</description>
+               </item>
+               <item>
+               <term>isQuantityNode = rnd.Next (10, 50)</term>
+               <description>псевдослучайное количество узлов isQuantityNode из интервала [10, 50].</description>
+               </item>
+               </list>
+               </summary>
+          </AutoAddQuantityNode>
+          <UserAddQuantityNode>
+               <summary>
+               Комментарии для UserAddQuantityNode:
+               <list type="number">
+               <item>
+               <term>Console.Write ("\n\nВведите количество узлов (до 103, включительно): ")</term>
+               <description>почему 103, смотри комментарии для глобальных переменных класса BinaryTree.</description>
+               </item>
+               </list>
+               </summary>
+          </UserAddQuantityNode>
+          <GenerateChoice>
+               <summary>
+               Комментарии для GenerateChoice:
+               <list type="number">
+               <item>
+               <term>case 1: AutoGenerateTree (isQuantityNode)</term>
+               <description>инициализация узлов isQuantityNode псевдослучайными числами.</description>
+               </item>
+               <item>
+               <term>case 2: AutoGenerateTree (isQuantityNode)</term>
+               <description>инициализация узлов isQuantityNode пользователем.</description>
+               </item>
+               <item>
+               <term>default: throw new Exception ()</term>
+               <description>если Choice != 1 или 2, то вызывается оператор Catch (блок исключения). Оператор Break в этом случае не требуется.</description>
+               </item>
+               </list>
+               </summary>
+          </GenerateChoice>
+          <AutoGenerateTree>
+               <summary>
+               Комментарии для AutoGenerateTree (инициализация дерева TreeArray с псевдослучайным количеством узлов isQuantityNode):
+               <list type="number">
+               <item>
+               <term>int isNewNodeTree = 0</term>
+               <description>переменная объявляется вне цикла for, для того чтобы на каждой итерации цикла перезаписывать одну и туже переменную, а не создавать каждый раз новую.</description>
+               </item>
+               <item>
+               <term>Random rnd = new Random ()</term>
+               <description>объявление и инициализация экземпляра rnd класса Random.</description>
+               </item>
+               <item>
+               <term>isNewNodeTree = rnd.Next (100, 999)</term>
+               <description>инициализация узла isNewNodeTree псевдослучайное числом из интервала [100, 999].</description>
+               </item>
+               <item>
+               <term>isTree.InsertNode (isNewNodeTree)</term>
+               <description>вставка нового узла isNewNodeTree в дерево TreeArray.</description>
+               </item>
+               </list>
+               </summary>
+          </AutoGenerateTree>
+          <UserGenerateTree>
+               <summary>
+               Комментарии для UserGenerateTree (инициализация дерева TreeArray с заданным количеством узлов isQuantityNode):
+               <list type="number">
+               <item>
+               <term>int isNewNodeTree = 0</term>
+               <description>переменная объявляется вне цикла for, для того чтобы на каждой итерации цикла перезаписывать одну и туже переменную, а не создавать каждый раз новую.</description>
+               </item>
+               <item>
+               <term>isTree.InsertNode (isNewNodeTree)</term>
+               <description>вставка нового узла isNewNodeTree в дерево TreeArray.</description>
+               </item>
+               </list>
+               </summary>
+          </UserGenerateTree>
+     </members>
+     <members name="BinaryTree.cs">
+          <InsertNode>
+               <summary>
+               Комментарии для InsertNode (вставка в дерево TreeArray нового узла isNewNodeTree без рекурсии):
+               <list type="number">
+               <item>
+               <term>if (isCurSize == 0)</term>
+               <description>если дерево TreeArray пустое, то новый узел isNewNodeTree становится его корнем.</description>
+               </item>
+               <item>
+               <term>while (TreeInitArray [i] != false)</term>
+               <description>цикл выполняется, пока не найдено место для нового узла isNewNodeTree.</description>
+               </item>
+               <item>
+               <term>if (isNewNodeTree "меньше"= TreeArray [i])</term>
+               <description>если новый узел isNewNodeTree "меньше"= текущего узла TreeArray [i], то смещение к левому поддереву (i = 2 * i + 1), если больше, то к правому (i = 2 * i + 2).</description>
+               </item>
+               <item>
+               <term>if (i >= isMaxQuantityNode)</term>
+               <description>если индекс [i] нового узла isNewNodeTree превысил размер дерева isMaxQuantityNode.</description>
+               </item>
+               <item>
+               <term>TreeArray [i] = isNewNodeTree</term>
+               <description>если место для нового узла isNewNodeTree найдено.</description>
+               </item>
+               <item>
+               <term>isCurSize = Math.Max (i, isCurSize)</term>
+               <description>определение нового размера isCurSize дерева.</description>
+               </item>
+               <item>
+               <term>isMaxLevel = Math.Max (isMaxLevel, isCurLevel)</term>
+               <description>определение нового количествва уровней isMaxLevel дерева.</description>
+               </item>
+               </list>
+               </summary>
+          </InsertNode>
+          <PrintTextFile>
+               <summary>
+               Комментарии для PrintTextFile (вывод дерева TreeArray в isTextFile без рекурсии):
+               <list type="number">
+               <item>
+               <term>for (int Level = 0; Level "меньше"= isMaxLevel; Level++)</term>
+               <description>цикл по уровням дерева TreeArray, начинается от корня и заканчивается в узлах.</description>
+               </item>
+               <item>
+               <term>int isCountNodeInLevel = (int)Math.Pow (2, Level)</term>
+               <description>вычисление максимального количества узлов, находящихся на уровне Level.</description>
+               </item>
+               <item>
+               <term>int iLim = i + isCountNodeInLevel</term>
+               <description>ограничение для переменной i.</description>
+               </item>
+               <item>
+               <term>int isCountFirstSpace = ((int)Math.Pow (2, isMaxLevel - Level) - 1) * isMaxCountDigit</term>
+               <description>вычисление количества пробелов перед первым узлом.</description>
+               </item>
+               <item>
+               <term>int isCountSpace = ((int)Math.Pow (2, isMaxLevel - Level + 1) - 1) * isMaxCountDigit</term>
+               <description>вычисление количества пробелов между соседними узлами.</description>
+               </item>
+               <item>
+               <term>PrintSpacesMethod (isCountFirstSpace, isTextFile)</term>
+               <description>вывод пробелов перед первым узлом.</description>
+               </item>
+               <item>
+               <term>for (; i "меньше" iLim; i++)</term>
+               <description>цикл по узлам уровня Level.</description>
+               </item>
+               <item>
+               <term>if (TreeInitArray [i])</term>
+               <description>если узел есть, то выводится он, иначе замещается пробелами.</description>
+               </item>
+               <item>
+               <term>PrintSpacesMethod (isCountSpace, isTextFile)</term>
+               <description>вывод пробелов между соседними узлами.</description>
+               </item>
+               </list>
+               </summary>
+          </PrintTextFile>
+          <PrintSpaces>
+               <summary>
+               Комментарии для PrintSpaces:
+               <list type="number">
+               <item>
+               <term>for (int i = 0; i "меньше" isQuantitySpace; i++)</term>
+               <description>вывод количества пробелов в isTextFile.</description>
+               </item>
+               </list>
+               </summary>
+          </PrintSpaces>
+          <BinaryTree>
+               <summary>
+               Комментарии для глобальных переменных класса BinaryTree:
+               <list type="number">
+               <item>
+               <term>const int isMaxQuantityNode = 10000</term>
+               <description>максимально допустимое количество узлов дерева TreeArray. Если при isMaxQuantityNode == 10000 ввести, например, isQuantityNode == 1000, то произойдет выход за предел массива TreeArray, потому что если все узлы дерева TreeArray разложить в ряд, то они будут занимать количество 2^i - 1 (вроде бы) элементов массива TreeArray. Чтобы этого не происходило, бинарное дерево нужно строить не в виде массива TreeArray (как об этом было написано в задании), а в виде класса List.</description>
+               </item>
+               <item>
+               <term>int isCurSize = 0</term>
+               <description>хранение текущего количества узлов дерева TreeArray.</description>
+               </item>
+               <item>
+               <term>int isMaxLevel = 0</term>
+               <description>максимальный уровень глубины дерева TreeArray.</description>
+               </item>
+               <item>
+               <term>int isMaxCountDigit = 3</term>
+               <description>количество разрядов выводимых чисел-узлов (для корректной записи дерева).</description>
+               </item>
+               <item>
+               <term>int [] TreeArray = new int [isMaxQuantityNode]</term>
+               <description>само дерево TreeArray. В этом массиве будут храниться узлы.</description>
+               </item>
+               <item>
+               <term>bool [] TreeInitArray = new bool [isMaxQuantityNode]</term>
+               <description>для определения инициализации I-го узла дерева TreeArray.</description>
+               </item>
+               </list>
+               </summary>
+          </BinaryTree>
+     </members>
+</Tutorial>
